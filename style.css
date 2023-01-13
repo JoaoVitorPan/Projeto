@@ -1,0 +1,21 @@
+.header { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(159, 122, 159);
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+.rodape {
+    font-family: 'helvetica';
+    border-top: 2px black;
+}
+
+#nome {
+    
+}
