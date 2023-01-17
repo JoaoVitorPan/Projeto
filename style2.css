@@ -1,0 +1,97 @@
+body {
+    background-color: white
+ }
+ .header { 
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     background-color:#001d2b;
+     border-radius: 5px;
+     text-decoration: none;
+     border: 5px solid black;
+     color:#c39956;
+     margin: 20px;
+ }
+ 
+ .logo-hotel{
+     width: 220px;
+     border-radius: 5px;
+     padding: 10px ;
+ }
+ .logo-hotel:hover{
+     cursor:pointer
+ }
+ 
+ .rodape {
+     font-family: 'helvetica';
+     border-top: 2px black;
+     size: 15px;
+     text-decoration: none;
+     text-shadow: 1px 1px 1px black;
+     color: #c39956;
+     transition: 0.5s;
+ }
+ 
+ .rodape:hover{
+     text-shadow: 2px 2px 2px black;
+     color: rgb(198, 198, 198);
+     transition: 0.5s;
+ }
+ 
+ .login{
+    background-color: #001d2b;
+    border: 5px solid black;
+    color: #c39956;
+    width: 1110px;
+    text-align: center;
+    align-items: center;
+    margin-left: 500px;
+    padding-bottom: 20px;
+    transition: 0.3s;
+ }
+
+ .titulo{
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-family: helvetica;
+    size: 15px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    color: #c39956;
+ }
+
+ .info{
+    font-size: 30px;
+    text-align: center;
+    font-family: helvetica
+    size: 15px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    color: #c39956;
+ }
+
+ .dados{ 
+    width: 300px;
+    height: 50px;
+ }
+
+ .enviar{
+    height: 50px;
+    width: 200px;
+    background-color: #001d2b;
+    border: 10px solid black;
+    transition: 0.5s;
+    size: 15px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    color: #c39956;
+
+ }
+
+ .enviar:hover{
+    background-color: aquamarine;
+    transition: 0.5s;
+    cursor: pointer;
+ }

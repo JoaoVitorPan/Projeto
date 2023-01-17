@@ -11,7 +11,7 @@ body {
     text-decoration: none;
     border: 5px solid black;
     color:#c39956;
-    position:sticky
+    margin: 20px;
 }
 
 .logo-hotel{
@@ -26,7 +26,7 @@ body {
 .rodape {
     font-family: 'helvetica';
     border-top: 2px black;
-    size: 15px;
+    font-size: 25px;
     text-decoration: none;
     text-shadow: 1px 1px 1px black;
     color: #c39956;
@@ -42,8 +42,7 @@ body {
 .seletor-viagem{
     display: flex;
     align-items:center;
-    justify-content: space-evenly
-
+    justify-content: space-evenly;
 }
 
 #ida-volta {
@@ -54,6 +53,7 @@ body {
     font-weight: bold;
     border: 2px solid black;
     color: #c39956;
+    font-size: 25px;
 }
 #localidade{
     font-family: 'helvetica';
@@ -63,17 +63,18 @@ body {
     font-weight: bold;  
     border: 2px solid black;
     color:  #c39956;
+    font-size:25px;
 }
 #seletor-ida-volta{ 
     font-weight: bold;
     background-color: #001d2b;
     font-family: 'helvetica';
     padding: 3px;
-    border-radius: 5px;
-    font-weight: bold;  
+    border-radius: 5px;  
     box-shadow: 2px 2px 2px rgb(21, 66, 66);
     color:#c39956;
-    border: 2px 2px 2px solid white
+    border: 2px 2px 2px solid white;
+    size: 25px;
 
 }
 
@@ -85,6 +86,8 @@ background-color: ;
 .texto1{
     background-color: #001d2b;
     border-radius: 5px;
+    border: 5px solid black;
+    margin: 20px;
 }
 
 .mulher{
@@ -95,9 +98,13 @@ background-color: ;
    padding-bottom: 20px ;
 }
 
+.mulher{
+    cursor: pointer;
+}
+
 .textodescrito{
     color: #c39956;
-    font-size: larger;
+    font-size: 30px;
     font-family: helvetica;
     text-shadow: 2px 2px 2px black;
     padding: 10px;
@@ -106,14 +113,21 @@ background-color: ;
 .texto2{
     background-color: #001d2b;
     border-radius: 5px;
+    border: 5px solid black;
+    margin: 20px;
 }
 
-.hotel{
+.hoteis{
     border-radius: 40px;
     margin-left: auto;
     margin-right: auto; 
-    display: block;
+    display:inline-block;
    padding-bottom: 20px ;
+   block-size: 550px; 
+}
+
+.hoteis:hover{
+    cursor: pointer;
 }
 
 .hotel:hover{
